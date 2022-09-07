@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family: 'Lato';
+}
+
+body{
+    background-image: url(../assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 1340px 873.115px;
+    width: 100vw;
+    height: 100vh;
+    background-position:50% -124.734px;
+    overflow-x: hidden;
+}
+.logo,img{
+    width: 11.32vw;
+    height: 5.97vh;
+    position: relative;
+    top: 107px;
+    left: 85px;
+}
+h1{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family:'Lato', sans-serif;
+    font-size: 3.5rem;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgb(0 0 0/60%);
+    text-align: start;
+    color: #239B56 ;
+}
+p{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    font-size: 1.063rem;
+    color: #ffff;
+    margin: 30px 0 30px 0;
+    text-shadow: 0 1px 2px rgba(0 0 0 /60%);
+    
+}
+.botao1,.botao2{
+    position: relative;
+    top: 100px;
+    left: 50px;
+    font-family: 'lato';
+    font-size:1.063rem;
+    font-weight: bold;
+    margin:30px 0 10px;
+    margin-right: 10px;
+    line-height: 20px;
+    padding: 15px 35px;
+    height: 50px;
+    border: 2px solid #0a0a0a;
+    background: all 0.4s;
+    color: #239B56;
+    border-radius: 100px;
+    text-decoration: none;
+    
+}
+.botao2:hover{
+    background-color: #239b56;
+    color: #fff;
+    transition: 1s;
+}
+.botao1{
+    background-color: #239B56;
+    color: #fff;
+}
+.botao1:hover{
+background-color: transparent;
+transition: 1s;
+color: #239B56;
+font-weight: bold;
+}
+
+/** CADASTRO**/
+.box{
+    width: 34.490vw;
+    height: 52.019vh;
+    position: relative;
+    padding: 20 0 20 0;
+    background:rgba(255,255,255,0.3);
+    border-radius: 4px;
+    left: 800px;
+    bottom: 180px;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: relative;
+    flex-grow: 10px;
+    top: 50px;
+}
+input{
+    width: 417px;
+    height: 55px;
+    padding: 15 5 15 5;
+    border: 1px solid #239B56;
+    border-radius: 5px;
+}
+.nome{
+    position: relative;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+}
+.email{
+    position: relative;
+    top: 70px;
+    left: 20px;
+    right: 20px;
+    padding: 15px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.sub{
+    position: relative;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+    background-color:  #239B56;
+    color: #fff;
+    font-size: 1rem;
+}
+.sub:hover{
+    background-color: #1A7440;
+    transition: 1s;
+}
+h2{
+    position: relative;
+    left: 150px;
+    top: 20px;
+    font-size: 25px;
+    color: #239B56;
+    font-weight: 700;
+    text-shadow:0 1px 2px rgba(0 0 0 /60%);
+}
